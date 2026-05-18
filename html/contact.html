@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Brickwater Bakery Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+    <body>
+        <header>
+            <div class="logo"><img width="200" height="200" src="../images/logo.png" alt="The bakery's logo: a brick kiln."></div>
+            <div class="banner">
+                <img src="../images/banner.png" width="1000" height="200" alt="An abstract banner of diagonal lines.">
+                <banner-text>Brickwater Bakery</banner-text>
+            </div>
+        </header>
+        <nav>
+            <table class="nav-table">
+                <tr>
+                    <th class="nav-th"><a class="nav-anchor" href="../index.html">Home</a></th>
+                    <th class="nav-th"><a class="nav-anchor" href="../html/gallery.html">Gallery</a></th>
+                    <th class="nav-th"><a class="nav-anchor" href="../html/contact.html">Contact</a></th>
+                </tr>
+            </table>
+        </nav>
+        <article>
+            <h1>Contact</h1>
+            <section>
+                <form>
+                    <h2 style="text-align:center;">Sign Up</h2>
+                    <div class="aligned-inputs">
+                        <p>
+                            <label for="fName">Name   </label>
+                            <input type="text" class="text-input" id="fName" size="40">
+                        </p>
+                        <p style="margin-bottom: -30px">
+                            <label for="fAddress">Address   </label>
+                            <input type="text" class="text-input" id="fAddress" size="40">
+                        </p>
+                        <p>
+                            <label for="address-second-line">Apt, suite, etc   </label>
+                            <input type="text" id="address-second-line" style="margin-right:4px; width: 30%">
+                            <label for="fstate">State   </label>
+                            <select name="state" aria-label="State" id="fstate" style="margin-left: 3px; width: 16.5%">
+                                <option value=act>ACT</option>
+                                <option value=nsw>NSW</option>
+                                <option value=nt>NT</option>
+                                <option value=qld>QLD</option>
+                                <option value=sa>SA</option>
+                                <option value=tas>TAS</option>
+                                <option value=vic>VIC</option>
+                                <option value=wa>WA</option>
+                            </select>                           
+                        </p>
+                        <p>
+                            <label for="signup-phone">Phone   </label>
+                            <input type="text" class="text-input" id="signup-phone" size="40">
+                        </p>
+                        <br>
+                        <p>
+                            <label for="signup-email">Email * </label>
+                            <input type="email" class="text-input" id="signup-email" size="40" required>
+                        </p>
+                        <p>
+                            <label for="signup-username" >Username * </label>
+                            <input type="text" class="text-input" id="signup-username" size="40" required>
+                        </p>
+                        <p>
+                            <label for="signup-password">Password * </label>
+                            <input type="password" class="text-input" id="signup-password" size="40" required>
+                        </p>
+                    </div>
+                    <div class="centered-inputs">
+                            <input type="checkbox" id="email-consent" value="email">
+                            <label for="email-consent">Sign up to receieve promotional emails?</label>
+                        <p>
+                            <input type="submit" style="margin-bottom: 80px; font-size: 20px;" value="Sign Up">
+                        </p>
+                    </div>
+                </form>
+                <form style="border-right: none">
+                    <div class="centered-inputs">
+                        <h2 style="text-align: center">
+                            Send us a message
+                        </h2>
+                        <p>
+                            <label for="feedback-name">Name: </label>
+                            <input type="text" id="feedback-name" size="30">
+                        </p>
+                        <p>
+                            <label for="feedback-email">Email: </label>
+                            <input type="email" id="feedback-email" size="30">
+                        </p>
+                        <p>
+                            <input type="radio" id="feedback" name="fReason" value="Feedback" required>
+                            <label class="spaced" for="feedback">Feedback</label>
+                            <input type="radio" id="inquiry" name="fReason" value="Inquiry">
+                            <label class="spaced" for="inquiry">Inquiry</label>
+                            <input type="radio" id="employment" name="fReason" value="Employment">
+                            <label class="spaced" for="employment">Employment</label>
+                        </p>
+                        <br>
+                        <p>
+                            <label for="feedback-box" style="display:block">Type your message below</label>
+                            <textarea id="feedback-box" name="feedback" rows="13" cols="40" style="margin-bottom: 0px; margin-top: 16px" required></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit" style="font-size: 20px;">
+                        </p>
+                    </div>
+                </form>
+            </section>
+            <section>
+                <h2 style="text-align:center; font-size:30px; border-bottom: solid; width: 300px; margin: auto; margin-top: 40px">Contact Details</h2>
+                <table class="contact-details">
+                    <tr>
+                        <td><h3 class="contact-details">Admin:</h3></td><td><h3 class="contact-info">Johnathan Othanon</h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3 class="contact-details">Email:</h3></td><td><h3 class="contact-info">hsolmes@bwbakery.com</h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3 class="contact-details">Address:</h3></td><td><h3 class="contact-info">220 Baker Street, Noldon</h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3 class="contact-details">Phone:</h3></td><td><h3 class="contact-info">555-123-4567</h3></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <footer>
+            <div class="social-table">
+                <a href="https://twitter.com/login?"><img src="../images/twitter-icon-resized.png" width="50" height="50" alt="Link to Twitter"></a>     
+                <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="../images/instagram-icon-resized.png" width="50" height="50" alt="Link to Instagram"></a>  
+                <a href="https://www.facebook.com/"><img src="../images/facebook-icon-resized.png" width="50" height="50" alt="Link to Facebook"></a>     
+            </div>
+            <h3 class="copyright-text">© Karl Schmidt, 2025</h3>   
+        </footer>
+    </body>
+</html>
